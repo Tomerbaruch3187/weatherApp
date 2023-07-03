@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    block-size: border-box;
+}
+
+body {
+    background: #222;
+}
+
+.card {
+    width: 100%;
+    max-width: 350px;
+    background: linear-gradient(135deg, #7cd5f8, #7b17ee);
+    color: #fff;
+    margin: 100px auto 0;
+    border-radius: 25px;
+    padding: 30px 25px;
+    text-align: center;
+}
+
+/* ----אזור החיפוש---- */
+.search {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search input {
+    border: 0;
+    outline: 0;
+    padding: 10px 25px;
+    height: 30px;
+    border-radius: 15px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+    background-color: #ebfffc77;
+    color: #555;
+    text-align: c;
+}
+
+.search button {
+    border: 0;
+    outline: 0;
+    background-color: #ebfffc75;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.search button img {
+    width: 16px;
+}
+
+
+
+/* אזור נתונים בדף */
+.wether-icon {
+    width: 170px;
+    margin-top: 30px;
+}
+
+.wether h1 {
+    font-size: 3.5em;
+    font-weight: bold;
+}
+
+.wether h2 {
+    font-size: 1.5em;
+    font-weight: 600;
+    margin-top: -5px;
+}
+
+.details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+
+.col {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.col img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.humidity,
+.wind {
+    font-size: 22px;
+    margin-top: -5px;
+}
+
+
+.weather {
+    display: none;
+}
+
+.error {
+    text-align: left;
+    margin-left: 10px;
+    font-size: 0.9em;
+    font-weight: bold;
+    margin-top: 8px;
+    color: rgba(192, 1, 1, 0.493);
+    font-family: sans-serif;
+
+    display: none;
+}
